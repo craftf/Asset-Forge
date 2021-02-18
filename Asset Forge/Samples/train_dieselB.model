@@ -1,0 +1,26 @@
+# Made using Asset Forge (2.1.1)
+
+:materials
+
+[name:steel;color:RGBA(0.311, 0.309, 0.340, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:dark;color:RGBA(0.224, 0.235, 0.275, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:metalOrange;color:RGBA(1.000, 0.658, 0.186, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.5;valueB:0.2;]
+[name:_defaultMat;color:RGBA(0.939, 0.953, 1.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+
+:models
+
+[name:;collection:Trains;type:bogie;position:(0.0000, 0.0000, 1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+dark;]
+[name:;collection:Trains;type:wheels_default;position:(0.0000, 0.0000, 1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+steel;]
+[name:;collection:Trains;type:wheels_default;position:(0.0000, 0.0000, -1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+steel;]
+[name:;collection:Trains;type:fuel_large;position:(0.0000, 0.0000, 0.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+dark;]
+[name:;collection:Trains;type:coupling_large;position:(0.0000, 0.2000, 1.0000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+steel;]
+[name:;collection:Trains;type:coupling_large;position:(0.0000, 0.2000, -1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+steel;]
+[name:;collection:Trains;type:bogie;position:(0.0000, 0.0000, -1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+dark;]
+[name:;collection:Trains;type:body_detail;position:(0.0000, 0.5000, 1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+metalOrange;]
+[name:;collection:Trains;type:body_detail;position:(0.0000, 0.5000, -1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+metalOrange;]
+[name:;collection:Trains;type:body_stripe;position:(0.0000, 0.5000, 0.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+metalOrange;]
+[name:;collection:Trains;type:diesel_cabin_front;position:(0.0000, 1.0000, -1.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:_defaultMat+steel+metalOrange+dark;]
+[name:;collection:Trains;type:diesel_cabin_detail;position:(0.0000, 1.0000, 0.0000);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:metalOrange+steel;]
+[name:;collection:Trains;type:detail_light;position:(0.3000, 0.8000, 1.5000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+_defaultMat+dark;]
+[name:;collection:Trains;type:detail_light;position:(-0.3000, 0.8000, 1.5000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:steel+_defaultMat+dark;]
+[name:;collection:Trains;type:diesel_cabin_front;position:(0.0000, 1.0000, 1.0000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:_defaultMat+steel+metalOrange+dark;]

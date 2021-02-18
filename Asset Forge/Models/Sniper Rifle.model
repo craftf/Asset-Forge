@@ -1,0 +1,28 @@
+# Made using Asset Forge (2.1.1)
+
+:materials
+
+[name:metalDark;color:RGBA(1.000, 0.814, 0.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.5;]
+[name:_defaultMat;color:RGBA(0.939, 0.953, 1.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:dark;color:RGBA(0.224, 0.235, 0.275, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+[name:metalPurple;color:RGBA(0.966, 1.000, 0.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0;]
+
+:models
+
+[name:;collection:Blasters;type:stock_assault;position:(0.0000, 0.7500, -3.9700);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+metalDark+_defaultMat;]
+[name:;collection:Blasters;type:clip_small;position:(0.0000, 0.6500, -2.6000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark;]
+[name:;collection:Blasters;type:scope_large;position:(0.0000, 1.7500, -1.2900);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0971, 1.0971, 2.0735);group:;locked:False;hidden:False;materials:dark+_defaultMat+metalDark;]
+[name:;collection:Blasters;type:detailRail_front;position:(0.0000, 1.7500, -0.8255);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 0.9090);group:;locked:False;hidden:False;materials:dark;]
+[name:;collection:Blasters;type:detailRail_front;position:(0.0000, 1.7500, -1.7549);rotation:(0.0000, 180.0000, 0.0000);scale:(1.0000, 1.0000, 0.9578);group:;locked:False;hidden:False;materials:dark;]
+[name:;collection:Blasters;type:largeBlaster_back;position:(0.0000, 0.7500, -5.2388);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 5.8776);group:;locked:False;hidden:False;materials:metalDark+dark+_defaultMat;]
+[name:;collection:Blasters;type:attachment_barrelThin;position:(0.0000, 0.4500, 1.0550);rotation:(0.0000, 0.0000, 0.0000);scale:(1.3700, 1.3700, 2.2879);group:;locked:False;hidden:False;materials:dark;]
+[name:;collection:Blasters;type:attachment_silencer;position:(0.0000, 0.8000, 2.5300);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+metalDark+_defaultMat;]
+[name:;collection:Blasters;type:largeBlaster_barrelAssault;position:(0.0000, 0.7500, -0.1700);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:metalDark+dark+_defaultMat;]
+[name:;collection:Blasters;type:detailTargetSightFront;position:(0.0000, 1.7500, -0.0800);rotation:(0.0000, 0.0000, 0.0000);scale:(1.9000, 1.2500, 1.0000);group:;locked:False;hidden:False;materials:_defaultMat+dark;]
+[name:;collection:Blasters;type:detailCounter;position:(-0.2037, 1.6488, -1.9800);rotation:(0.0000, 0.0000, 65.0000);scale:(0.6780, 0.6780, 0.6780);group:;locked:False;hidden:False;materials:metalDark+dark+_defaultMat;]
+[name:;collection:Blasters;type:attachment_laser;position:(0.0000, 0.6700, -0.5400);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:dark+_defaultMat+metalDark;]
+[name:;collection:Blasters;type:clipBarrel;position:(0.0000, 1.2500, 1.0000);rotation:(0.0000, 0.0000, 0.0000);scale:(0.6000, 0.6000, 0.6000);group:;locked:False;hidden:False;materials:metalDark+dark;]
+[name:;collection:Blasters;type:clipBarrel;position:(0.0000, 1.2500, 1.4000);rotation:(0.0000, 0.0000, 0.0000);scale:(0.6000, 0.6000, 0.6000);group:;locked:False;hidden:False;materials:metalDark+dark;]
+[name:;collection:Blasters;type:largeBlaster_handleBolt;position:(0.0000, 0.7500, -1.8000);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 1.0000);group:;locked:False;hidden:False;materials:metalDark+dark+_defaultMat;]
+[name:;collection:Blasters;type:clipBarrel;position:(0.0000, 1.2500, 0.6075);rotation:(0.0000, 0.0000, 0.0000);scale:(0.6000, 0.6000, 0.5700);group:;locked:False;hidden:False;materials:metalDark+dark;]
+[name:;collection:Blasters;type:largeBlaster_center;position:(0.0000, 0.7500, -0.9800);rotation:(0.0000, 0.0000, 0.0000);scale:(1.0000, 1.0000, 0.6400);group:;locked:False;hidden:False;materials:metalDark+dark+_defaultMat;]
